@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/multi_media.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    background-color: hsl(169, 79%, 46%);
+    font-size:30px;
+    justify-content:space-between;
+    
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    margin:20px;
+    font-size: 30px;
+}
+.mmedia{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+}
+.heading{
+    margin:10px;
+}
+
+a:hover{
+    font-size:32px;
+    color:red;
+}

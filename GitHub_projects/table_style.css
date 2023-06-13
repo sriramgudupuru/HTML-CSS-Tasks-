@@ -1,0 +1,41 @@
+table,th,td{
+    border:2px solid;
+    border-collapse:separate;
+    
+}
+table{
+    width:50%;
+}
+th{
+    height: 70px;
+}
+main{
+    display:flex;
+    justify-content: center;
+
+}
+
+body{
+    background-image: url(images/table.jpg);
+    text-align:center;
+    font-size:30px;
+}
+
+nav{
+    margin-top:10px;
+    display: flex;
+    justify-content:center;
+
+}
+a{
+    text-decoration: none;
+    background-color:rgb(155, 180, 208);
+    margin:10px;
+    border-radius:5px;
+    padding:4px 10px;
+}
+
+a:hover{
+    background-color: rgb(147, 72, 216);
+    font-size: 34px;
+}

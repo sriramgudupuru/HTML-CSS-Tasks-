@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("images/form_bg.jpg");   
+    background-attachment:scroll;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+abbr:hover{
+    color:rgb(217, 43, 43);
+    font-size:39px;
+}
+
+
+.opti{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    
+    font-size:20px;
+    text-align:center;
+}
+
+.rad{
+    margin-left:20px;
+    white-space:nowrap;
+}
+
+label{
+    margin-right:10px;
+}
+
+input{
+    width:25%;
+    margin:4px;
+    padding:4px;
+    border:1px solid white;
+    border-radius:6px;
+    font-size:16px;
+}
+
+input:hover{
+    width:35%;
+    transition: 0.9s;
+}
+
+input[type=checkbox]{
+  width:auto;
+  margin-left:10px;
+}
+
+input[type=search]{
+    background-image:url(images/search.png);
+    background-repeat:no-repeat;
+    /* background-size:10px 10px; */
+    background-position:5px 2px;
+    background-size:20px 20px;
+    padding-left:28px;
+}
+
+input[type=submit]
+{
+    width:5%;
+    cursor:pointer;
+}
+input[type=reset]{
+    width:5%;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(233, 145, 44);
+}
+
+input[type=reset]:hover{
+    background-color: rgb(233, 145, 44);   
+}
+
+a{
+    color:green;
+    margin-left:10px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    border-radius:8px;
+    padding:4px 10px;
+    
+}
+
+a:hover{
+    font-size: 21px;
+    background-color: rgb(233, 145, 44);
+
+}
+h4{
+    font-size: 21px;
+    padding-top:70px;
+    padding-bottom: 10px;
+}
+
+legend{
+    font-size:21px;
+}

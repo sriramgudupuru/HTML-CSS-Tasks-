@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list_style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="dropdown">Lists
+                <div class="hide">
+                    <p onclick="ul_fun()" class="ul">Unordered List</p>
+                   
+
+                    <p onclick="ol_fun()" class="ol">Ordered List</p>
+                    
+                    <p onclick="dl_fun()" class="dl">Description List</p>
+                </div>
+            </div>
+            <a href="home.html">Home</a>
+
+           
+
+            <a href="form.html#form">Form</a>
+
+           
+
+            <a href="Time_table.html">Table</a>        
+            
+            <br>
+            <br>
+
+            <a href="multimedia.html">Media(video,audio)</a>
+           
+        </nav>
+            
+        
+        
+    </header>
+    <main id="lists">
+        
+         
+            <div>
+                
+                <section id="ulist">
+                    <h3>Unordered List</h3>
+                    <br>
+                    <p>Subjects that I have knowledge intermediately</p><br>
+
+                    <ul>
+                        <li>C and DataStructures</li>
+                        <li>Algorithms</li>
+                        <li>Theory of Computation</li>
+                        <li>DBMS</li>
+                        <li>Discrete Mathematics</li>
+                        <li>Digital logic Design</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </section>
+                <section id="olist">
+                    <h3>Ordered List</h3>
+
+                    <p>Lets see priority of Operators in C language</p>
+                    <ol type="i">
+                        <li>Access members</li>
+                        <li>Unary Operators</li>
+                        <li>Arithmetic operators</li>
+                        <li>Bitwise operators</li>
+                        <li>Logical Operators</li>
+                        <li>Assignment Operators</li>
+                        <li>Comparison Operators</li>
+                        <li>Comma Operator</li>
+                    </ol>
+                </section>
+                <section id="dlist">
+                    <h3>Description Lists</h3>
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>- HyerTextMarkupLanguage</dd>
+                        <dt>CSS</dt>
+                        <dd>- Cascading StyleSheet</dd>
+                        <dt>DBMS</dt>
+                        <dd>- DatabaseManagementSystem</dd>
+                        <dt>SQL</dt>
+                        <dd>Structured Query Language</dd>
+                    </dl>
+                </section>
+            </div>
+
+    </main>
+    <P ID="HERE"></P>
+    <footer>
+        <a href="#">Go to top</a>
+        
+    </footer>
+
+    <script>
+        function ul_fun(){
+            let ul=document.getElementById("ulist").innerHTML;
+            document.getElementById("HERE").innerHTML=ul;
+        }
+        function ol_fun(){
+            let ul=document.getElementById("olist").innerHTML;
+            document.getElementById("HERE").innerHTML=ul;
+        }
+        function dl_fun(){
+            let ul=document.getElementById("dlist").innerHTML;
+            document.getElementById("HERE").innerHTML=ul;
+        }
+    </script>
+</body>
+</html>
